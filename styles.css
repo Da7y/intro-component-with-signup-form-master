@@ -1,0 +1,111 @@
+body{
+  background-color: hsl(0, 100%, 74%) ;
+  background-image: url("images/bg-intro-mobile.png");
+  width: 85%;
+  margin: 6rem auto 2rem;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+/* text section */
+ button{
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+box-shadow: 0 10px 0 #cc5a5a ;
+margin: 3rem 0 1rem;
+cursor: pointer;
+}
+/* sign in section */
+.box{
+  background-color: white;
+  margin: 2rem 0;
+  border-radius: 10px;
+  padding: 1rem 0 1.5rem;
+  box-shadow: 0 10px 0 #cc5a5a ;
+}
+
+input{
+  font-family: 'Poppins', sans-serif;
+  color:   gray;
+  font-weight: 700;
+  width: 80%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color:  hsl(246, 25%, 77%);
+  border-width: .7px;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.box button{
+  background-color:  hsl(154, 59%, 51%);
+  outline:none;
+  border-radius: 5px;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  width: 90%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  box-shadow: 0 5px 0 hsl(154, 59%, 46%);
+  cursor: pointer;
+}
+.box button:active{
+ border-width: 0px;
+  box-shadow: 0 2px hsl(154, 59%, 31%);
+  transform: translateY(4px);
+}
+.box .info{
+  width: 80%;
+  margin: 0 auto;
+  color:hsl(246, 25%, 77%);
+  font-size: .7rem;
+}
+.terms{
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+  font-size: .75rem
+}
+.box .error{
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+  width: 92%;
+  font-size: 13px;
+  display: none;
+}
+.email-red::-webkit-input-placeholder{
+  color: hsl(0, 100%, 74%);
+
+}
+
+a{
+  text-decoration: none;
+}
+@media (min-width: 1000px) {
+.wrap{
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: 50% 50%;
+  width: 80%;
+  margin: 0 auto;
+}
+.left{
+  text-align: left;
+  font-size: 16px;
+  align-self: center;
+}
+h1{
+  font-size: 2.5rem;
+}
+}
